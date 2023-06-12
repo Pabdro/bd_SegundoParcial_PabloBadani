@@ -13,7 +13,7 @@ Contraseñas .- qwert
 
 ## Diagrama propuesto de Base de datos
 
-
+![Diagrama adquisicion2 drawio](https://github.com/Pabdro/bd_SegundoParcial_PabloBadani/assets/80706043/a8edb02f-5f3a-4414-b6d5-a311bcf739be)
 
 ## Requisitos técnicos
 * Docker: Tener el docker desktop instalado (https://www.docker.com/products/docker-desktop/).
