@@ -1,0 +1,12 @@
+version: '3'
+services:
+  master:
+    image: mysql:debian
+    restart: always
+    ports:
+      - 3600:3306
+    volumes:
+      - ./master-scripts5:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=qwert
+      - MYSQL_DATABASE=baseDatosSegParcial
